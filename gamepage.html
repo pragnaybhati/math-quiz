@@ -1,0 +1,38 @@
+<html>
+
+<head>
+    <title>The Math Quiz Game</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body class="caner">
+    <h4 id="player1-name"></h4><span id="player1-score"></span>
+    <br>
+    <h4 id="player2-name"></h4><span id="player2-score"></span>
+    <div class="container">
+        <center>
+            <h2 id="name" style="margin-bottom: 30px;">The Math Quiz Game!</h2>
+            <h4 id="player-question"></h4>
+            <h4 id="player-answer" style="margin-bottom: 40px;"></h4>
+            <div id="output" class="col-lg-6"></div>
+            <br>
+            <br>
+            <h2 id="name"> Number 1</h2>
+            <input type="number" class="form-control" id="input-q-1" placeholder="Enter number 1">
+            <br>
+            <h2 id="name"> Number 2</h2>
+            <input type="number" class="form-control" id="input-q-2" placeholder="Enter number 2">
+            <br>
+            <button onclick="send()" class="btn btn-success" style="width: 30%; font-family: 'Dancing Script', cursive;">Make Question</button>
+        </center>
+    </div>
+
+    <script src="gamepage.js"></script>
+
+</body>

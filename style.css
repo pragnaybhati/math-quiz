@@ -1,0 +1,78 @@
+#name {
+    font-family: 'Dancing Script', cursive;
+}
+
+#login-section {
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-color: peachpuff;
+    border-radius: 30px;
+}
+
+#player1_name {
+    border-radius: 50px;
+    width: 300px;
+}
+
+#player2_name {
+    border-radius: 50px;
+    width: 300px;
+    margin-top: 10px;
+}
+
+.btn {
+    width: 300px;
+}
+
+#design-section {
+    width: 50%;
+    height: 100%;
+    float: right;
+    background-color: red;
+    border-radius: 30px;
+}
+
+#name1 {
+    font-family: 'Dancing Script', cursive;
+    margin-top: 150px;
+}
+
+#input-q-1 {
+    width: 60%;
+}
+
+#input-q-2 {
+    width: 60%;
+}
+
+#output {
+    background: white;
+    border-radius: 10px;
+    border-top: 10px solid #AA4465;
+    padding: 10px;
+    float: none;
+    text-align: left;
+}
+
+.caner {
+    background-color: lightskyblue;
+}
+
+#player-1-name,
+#player-2-name {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+#player1-name,
+#player2-name{
+    display: inline-block;
+    font-family: 'Dancing Script', cursive;
+    margin-left: 15px;
+}
+#player-question,
+#player-answer{
+    font-family: 'Dancing Script', cursive;
+    font-size: x-large;
+}
